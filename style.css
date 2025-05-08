@@ -120,7 +120,216 @@ body{
 
 
 /* Responsive Design */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1200px) {
+    .card {
+        width: 40%;
+        padding: 50px;
+        margin-top: 150px;
+    }
+
+    .weather h1 {
+        font-size: 100px;
+    }
+
+    .weather h2 {
+        font-size: 50px;
+    }
+
+    .details {
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+
+    .humidity,
+    .wind,
+    .feels {
+        font-size: 32px;
+    }
+}
+
+/* Tablets and medium devices */
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 60%;
+        padding: 40px;
+    }
+
+    .search input {
+        font-size: 18px;
+    }
+
+    .search button {
+        width: 55px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .weather-icon {
+        width: 150px;
+    }
+
+    .weather h1 {
+        font-size: 70px;
+    }
+
+    .weather h2 {
+        font-size: 40px;
+    }
+
+    .details {
+        margin-top: 40px;
+    }
+
+    .humidity,
+    .wind,
+    .feels {
+        font-size: 26px;
+    }
+
+    .type {
+        font-size: 26px;
+    }
+}
+
+/* Tablets in portrait orientation */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .search input {
+        font-size: 16px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .weather-icon {
+        width: 130px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        margin-top: 30px;
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .col {
+        margin-bottom: 15px;
+        justify-content: flex-start;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 24px;
+    }
+
+    .type {
+        font-size: 24px;
+    }
+}
+
+/* Small screens (mobile phones) */
+@media screen and (max-width: 480px) {
+    .card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .search input {
+        font-size: 14px;
+    }
+
+    .search button {
+        width: 45px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .weather-icon {
+        width: 110px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        margin-top: 20px;
+    }
+
+    .humidity,
+    .wind,
+    .feels {
+        font-size: 20px;
+    }
+
+    .type {
+        font-size: 20px;
+    }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 320px) {
+    .card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .search input {
+        font-size: 12px;
+    }
+
+    .search button {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .weather-icon {
+        width: 100px;
+    }
+
+    .weather h1 {
+        font-size: 40px;
+    }
+
+    .weather h2 {
+        font-size: 25px;
+    }
+
+    .details {
+        margin-top: 15px;
+    }
+
+    .humidity,
+    .wind,
+    .feels {
+        font-size: 18px;
+    }
+
+    .type {
+        font-size: 18px;
+    }
+}@media screen and (max-width: 600px) {
     .card {
         width: 95%;
         padding: 30px 20px;
